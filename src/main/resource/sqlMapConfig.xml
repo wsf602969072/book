@@ -1,0 +1,20 @@
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <mappers>
+        <mapper resource="com/wsf/mapper/TUserMapper.xml"></mapper>
+        <mapper resource="com/wsf/mapper/TDeptMapper.xml"></mapper>
+        <mapper resource="com/wsf/mapper/TSpecialtyMapper.xml"></mapper>
+        <mapper resource="com/wsf/mapper/TStudentMapper.xml"></mapper>
+        <mapper resource="com/wsf/mapper/TCatalogMapper.xml"></mapper>
+        <mapper resource="com/wsf/mapper/TBookMapper.xml"></mapper>
+        <mapper resource="com/wsf/mapper/TBorrowMapper.xml"></mapper>
+        <mapper resource="com/wsf/mapper/TLoseMapper.xml"></mapper>
+
+
+
+    </mappers>
+</configuration>
+
